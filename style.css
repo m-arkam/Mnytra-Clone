@@ -73,7 +73,7 @@ header{
 
 
 .search-input{
-    color: black;
+    color: red;
     background-color: aliceblue;
     flex-grow: 1;
     height: 40px;
@@ -147,7 +147,7 @@ header{
 }
 
 h3{
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 25px;
     font-weight: 700;
 }
