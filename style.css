@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(200, 197, 197);
+}
+
+.Mnytra-logo{
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 5px;
+
+}
+
+.nav-bar{
+    display: flex;
+    min-width: 600px;
+    justify-content: space-evenly;
+}
+
+.nav-bar a{
+    color: black;
+    letter-spacing: .3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 28px 0;
+    border-bottom: 5px solid #ffffff;
+}
+
+.nav-bar a:hover{
+    border-bottom: 4px solid red;
+}
+.nav-bar a sup{
+    color: red;
+    font-size: 10px;
+}
+
+.search-bar{
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.search-icon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 400;
+    border-radius: 4px 0 0 4px;
+}
+
+
+
+.search-input{
+    color: black;
+    background-color: aliceblue;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    
+}
+
+.action-bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+    
+}
+
+.action-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.action-name{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Banner-img{
+    width: 100%;
+    margin: 10px 5px 10px 5px;
+}
+
+.categorie_heading{
+    margin: 10px 20px 10px 20px;
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .14em;
+}
+
+.categories_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_items{
+    width: 250px;
+
+}
+/* .main_catagories{
+    width: 50%;
+} */
+
+.main-catagories{
+    width: 100%;
+
+}
+
+
+.categories_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.main_items{
+    width: 250px;
+     
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+
